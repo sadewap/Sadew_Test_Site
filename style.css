@@ -4,23 +4,22 @@
     background-color: rgb(9, 99, 105);
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 10px;
     font-family: poppins;
 }
 
 .btn {
-    background-color: #4CAF50; /* Green */
+    background-color: #003f02; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 6px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     margin: 2px 1px;
     cursor: pointer;
     border-radius: 20px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     font-family: poppins;
   }
   
@@ -28,7 +27,7 @@
     background-color: #c4eeff; /* Darker Green */
     color: #015a04;
     transform: scale(1.1); /* Scale effect on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    box-shadow: 2px 12px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
     border-radius: 38px;
   }
   
@@ -40,6 +39,14 @@
     box-shadow: none; /* Remove shadow on click */
   }
   
+  .img11 {
+    margin-top: 20px;
+    transition: all 0.4s ease;
+  }
+
+  .img11:hover {
+    transform: scale(1.2);
+  }
 
   .ff1 {
     font-family: poppins;
@@ -54,11 +61,8 @@
     font-size: 15px;
   }
 
-  p::first-letter {
-    font-size: 200%;
-    color: #555555;
-    font-weight: bold;
-  }
+  
+ 
 
   .aa1 {
     color: #000000;
